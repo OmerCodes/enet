@@ -33,8 +33,8 @@
 
 ## Disclaimer
 
-This is a fork of the original library [lsalzman/enet](https://github.com/lsalzman/enet). While original repo offers a stable, time-tested wonderful library,
-we are trying to change some things, things, which can't be reflected on the main repo, like:
+This is a fork of the original library [lsalzman/enet](https://github.com/lsalzman/enet). While the original repo offers a stable, time-tested wonderful library,
+we are trying to change some things, things which can't be reflected on the main repo, like:
 
 * integrated ipv6 support
 * added monotonic time
@@ -67,7 +67,7 @@ Add include path to the library `node_modules/enet.c/include` to your makefile/
 
 ## Installation (manually)
 
-Download file [include/enet.h](https://raw.githubusercontent.com/zpl-c/enet/master/include/enet.h) and just add to your project.
+Download the file [include/enet.h](https://raw.githubusercontent.com/zpl-c/enet/master/include/enet.h) and just add to your project.
 
 ## Usage (Shared library)
 
@@ -281,7 +281,7 @@ int main() {
       }
   }
 
-  // Drop connection, since disconnection didn't successed
+  // Drop connection, since disconnection didn't succeed
   if (!disconnected) {
       enet_peer_reset(peer);
   }
